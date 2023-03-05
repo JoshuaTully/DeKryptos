@@ -1,0 +1,8 @@
+<svg width="75" height="20" xmlns="http://www.w3.org/2000/svg">
+	<g>
+		<path id="rotorCoundDown" transform="rotate(-89.75883483886719 11.047618865966797,9.847249031066895) " fill="#424242" opacity="undefined" d="m2.42762,19.62412l8.62,-19.55375l8.62,19.55375l-17.24,0z" stroke="#9a9a9a"/>
+		<path id="rotorCountUp" transform="rotate(90.67713165283203 64.13088989257812,10.347257614135742) " fill="#424242" opacity="undefined" d="m55.5109,20.12413l8.62,-19.55375l8.62,19.55375l-17.24,0z" stroke="#9a9a9a" />
+		<rect id="rotorCountBox" stroke="#9a9a9a" stroke-dasharray="null" stroke-opacity="null" opacity="undefined" x="23.25" y="1.25" width="28.74999" height="18" fill="#424242" />
+		<text id="rotorCountText" stroke-width="0" stroke-dasharray="null" stroke-opacity="null" opacity="undefined" x="31.99999" y="16.5" font-size="18" font-family="sans-serif" text-anchor="start" xml:space="preserve" fill="#9a9a9a" stroke="#9a9a9a">0</text>
+	</g>
+</svg>

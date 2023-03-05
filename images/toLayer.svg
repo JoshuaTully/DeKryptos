@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="210mm"
+   height="297mm"
+   viewBox="0 0 210 297"
+   version="1.1"
+   id="svg3614"
+   inkscape:version="1.1 (c68e22c387, 2021-05-23)"
+   sodipodi:docname="toLayer.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview3616"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:document-units="mm"
+     showgrid="false"
+     inkscape:zoom="0.72337262"
+     inkscape:cx="397.44385"
+     inkscape:cy="561.95105"
+     inkscape:window-width="1920"
+     inkscape:window-height="1001"
+     inkscape:window-x="-9"
+     inkscape:window-y="-9"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs3611" />
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <rect
+       id="svg_1"
+       height="87.661697"
+       width="73.681465"
+       y="120.2193"
+       x="130.92497"
+       opacity="undefined"
+       stroke="#9a9a9a"
+       fill="none"
+       transform="matrix(0.99999524,-0.00308428,0.00201071,0.99999798,0,0)"
+       style="stroke-width:9.38645" />
+    <rect
+       id="svg_1-9"
+       height="87.661697"
+       width="73.681465"
+       y="90.633171"
+       x="109.63605"
+       opacity="undefined"
+       stroke="#9a9a9a"
+       fill="none"
+       transform="matrix(0.99999524,-0.00308428,0.00201071,0.99999798,0,0)"
+       style="stroke-width:9.38645" />
+    <path
+       stroke="#9a9a9a"
+       id="svg_3"
+       d="m 46.092972,178.74024 40.929301,-43.1092 -41.102013,-42.856153 0.04247,21.491383 -41.2132499,0.13048 0.080218,42.98264 41.2132509,-0.13048 0.04247,21.49139 z"
+       opacity="undefined"
+       stroke-dasharray="none"
+       stroke-width="9.38644"
+       fill="none" />
+  </g>
+</svg>

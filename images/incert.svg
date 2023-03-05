@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   width="25.000000000000004"
+   height="25.000000000000004"
+   version="1.1"
+   id="svg75"
+   sodipodi:docname="incert.svg"
+   inkscape:version="1.1 (c68e22c387, 2021-05-23)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs79" />
+  <sodipodi:namedview
+     id="namedview77"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     showgrid="false"
+     inkscape:zoom="31.16"
+     inkscape:cx="12.5"
+     inkscape:cy="7.4293967"
+     inkscape:window-width="1920"
+     inkscape:window-height="1001"
+     inkscape:window-x="-9"
+     inkscape:window-y="-9"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg75" />
+  <g
+     id="g73"
+     transform="matrix(0.62887425,-0.00159687,0.00152653,0.62503851,5.526673,4.8926239)">
+    <title
+       id="title68">Layer 1</title>
+    <rect
+       id="svg_1"
+       height="8.4998598"
+       width="8.6248598"
+       y="12.275"
+       x="1.31268"
+       opacity="undefined"
+       stroke="#9a9a9a"
+       fill="none" />
+    <rect
+       id="svg_2"
+       height="8.4998598"
+       width="8.6248598"
+       y="12.275"
+       x="15.06246"
+       opacity="undefined"
+       stroke="#9a9a9a"
+       fill="none" />
+    <path
+       stroke="#9a9a9a"
+       id="svg_3"
+       d="m 8.38349,6.22566 4.06243,4.92557 4.06243,-4.92557 H 14.47713 V 1.27639 H 10.4147 V 6.22566 H 8.38348 Z"
+       opacity="undefined"
+       stroke-dasharray="none"
+       stroke-width="null"
+       fill="none" />
+  </g>
+</svg>

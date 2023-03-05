@@ -1,0 +1,71 @@
+KRYPTOS the nuance of illusion
+
+Updates Needed:
+	Core:
+		convert objects to classes
+		Make functions library dependant-free
+		Implement Ranger to modify only selected text
+		Marker is more of a hack than stable code
+		Batch Processing
+
+		
+	Interface:
+
+		allow each row to  shift left and right
+		Dynamic Page Width
+		Center page
+		Format Lock + word wrap
+		Caps Lock
+		Indicate current index with colored highlight.
+		Text: onclick set layer active (z-indexing and stacking issue)
+		Re-enable history/save states (ios)
+		Re-enable define layer Layer: && Shift PT down and Define layer in between when define is active or use the spae between text type.
+	Steg:
+		Steg indexing broke due to white space (Has to do with ios.pt/ios.ct, spaces, carrage return)
+		Steg Matrix (move block to/orientation)
+		Steg Tools (Store indices but update steg with text modifiers like reverse and move up down)
+		Read From Right To Left / Left to Right (STEG)
+
+	Trans: 
+		Modifiers to shift selected text, rotate text, move text, and align
+		
+
+
+Patched: 
+	9/21/21
+		Steg: Steg and Marker Broken
+		Interface: Pressing enter kills the range, set keydown to incert \n
+		Interface: Indexing adds the carrage return as a characture (Utilize format data)
+	9/08/21
+		Steg: Clicking on steg tool turns off CT layer
+		Steg: Changing PT/CT positioning proken
+		Core : Migrate IOS object to auto populate from all UI 
+	8/24/21
+		Core: Make global variables more human friendly
+	7/6/21
+		Core: Migrate IOS to global object
+		Core: Ranging (For Modifying selected text and not whole layer)
+
+	6/29/21
+		Unify core functions
+		Keyword maker
+		Alphabet Maker
+
+	6/27/21
+		Interface clicking on pt creates a new ct layer (BAD)
+		Interface Dynamic Formatting read/write (onmousedown=updateMemory(text))
+		Interface Mirror Format for PT/CT
+		Interface History List & Icon
+		Interface Search List
+		Interface Flip Vertical
+		Interface Flip Horizontal
+		Interface Text Rotation/replace Tools
+		Interface Make PT & CT layers the same Index
+		Interface Selector Mechanism
+		Interface Layer List & Icon
+		Steg layer walks all over other layers// update to: steg layer not content editable, no text if steg layer
+		Steg When clicking on steg map, new layer is calculated (bad)
+		Steg cls creates a new layer (BAD)
+		Steg block press causes an error (Bad)
+		Load Steg
+

@@ -1,0 +1,247 @@
+
+[contenteditable] {
+	outline: 0px solid transparent;
+}
+BODY {
+	background-color:#191919;
+	caret-color: rgba(0,0,0,0);
+}
+
+HR{
+	border: 0;
+	height: 1px;
+	background-image: linear-gradient(to right, rgba(200, 200, 200, 80), rgba(200, 200, 200, 0));
+}
+
+input{
+	width:35px;
+	height:35px;
+	resize:none;
+	color:#878787;
+	border:0px;
+	background-color:transparent;
+	text-align: center;
+	font-family:Arial;
+	text-decoration:none;
+}
+
+input[type=image]{
+	box-shadow: none;
+	border-radius: 5px;
+	border: none;
+	outline: none;
+	cursor:pointer;
+	font-size: 24px;
+	align-self: center;
+}
+input[type=image]:hover{ 
+	background-color: rgba(00, 97, 167,0.3);
+	box-shadow: inset 0px 0px 8px rgba(00, 00, 00,0.3);
+	border:4px;
+}
+
+input[type=button]{
+	box-shadow: none;
+	border-radius: 5px;
+	border: none;
+	outline: none;
+	cursor:pointer;
+	font-size: 24px;
+	align-self: center;
+}
+input[type=button]:hover{ 
+	background-color: rgba(00, 97, 167,0.3);
+	box-shadow: inset 0px 0px 8px rgba(00, 00, 00,0.3);
+	border:4px;
+}
+
+input[type=text]{
+	height:25px;
+	display:inline-block;
+	resize:none;
+	background-color:#424242;
+	border-color:#dfdfdf;
+	font-size:11pt;   
+}
+
+input[type=number]{
+	display:inline-block;
+	background-color:rgba(255, 255, 255, .4);
+	font-size:12pt;  
+	-moz-appearance:textfield; 
+	-webkit-appearance: none;
+}
+
+.globalFont{
+	font-color:#f0f0f0;
+	font-family:Arial;
+	font-size:20px;
+	text-decoration:none;
+}
+.page{ 
+	position: relative;
+	top: 50%;
+	left: 50%;
+	transition: top 1s ease .5s;
+	resize: none;
+	overflow:visible; 
+	line-height:300%; 
+	font-size:18px;  
+	font-weight: bold; 
+	font-family:'Lucida Console', monospace;
+	caret-color: rgba(0,0,255,1);
+	white-space: pre-wrap;
+	border-style: none;
+}
+.project{
+	position:absolute; 
+	overflow:hidden;
+	top:35px; 
+	left:75px;
+	right:300px;  
+	bottom:38px; 
+	z-index:1; 
+	background-color:#dfffdf;
+	box-shadow: inset 0 0 20px rgba(00, 00, 00, 1);
+
+}
+
+.slideDeck{
+	z-index:15; 
+	background-color:#3d3d3d;
+	position: absolute;
+	visibility: visible;
+	overflow: hidden; 
+}
+.darkMenuTabs{
+	position:absolute; 
+	background-color:#424242;
+}
+.caret{
+	position:absolute; 
+ 	animation: animated-caret 1.5s infinite;
+	transition: top 0.5s left 0.5s ease;
+	top:18px; 
+	left:21px; 
+	height:13px; 
+	width:10px; 
+	border-style: solid none solid none;
+	z-index:2;	
+}
+@keyframes animated-caret
+	{0% {border-color:rgba(255,255,255,1);
+	}50%{
+	border-color:rgba(100,100,255,1);
+	}100%{
+	border-color:rgba(255,255,255,1);
+	}
+}
+
+
+
+.menuBlock{
+	position: absolute; 
+	justify-content: center;
+	align-items: center;
+	border:none;
+	transition: height 1s, top 1s;
+	display:flex; 
+	flex-wrap: wrap;
+	z-index:20;
+}
+.menuBlockContent{
+	position: absolute;
+	top:0px;
+	left:0px; 
+	right:4px;
+	overflow: break-word; 	
+	scroll-button:hidden;
+	scroll-track:hidden;
+	transition: left 1s;
+}
+
+.stegField{
+	position:absolute;
+	font-family:'Lucida Console', monospace;
+	font-size:20px; 
+	color:#999999;
+	cursor:pointer;
+ 
+	}
+.stegField:hover{
+	background:linear-gradient(to bottom, rgba(00, 97, 167,0.3) 15%, rgba(00, 125, 193, 0.3) 100%);
+	position:absolute;
+	height:20px; 
+	}
+
+.layerSlide{
+	position:relative;
+	height:30px;
+	top:0px;
+	right:4px;
+	left:1px;
+	padding:1px;
+	transition: top 1s ease .5s;
+	vertical-align: top;
+	border-radius:5px;
+	cursor:pointer;
+}
+.layerSlide:hover{ 
+	background:linear-gradient(to bottom, rgba(00, 97, 167,0.3) 15%, rgba(00, 125, 193, 0.3) 100%);
+	border:4px;
+}
+
+.layerSlideIcon{
+	position:absolute;
+	top:2px; 
+	left:2px; 
+	width:30px; 
+	height:30px;
+	text-align: center;  
+	line-height:32px;
+	font-size:30px; 
+	font-weight:bold;
+	text-shadow: 0px 0px 10px #ffffff;			
+	box-shadow: 0px 0px 5px 1px rgba(0, 0, 0, .3);
+	caret-color: rgba(0,0,0,0);
+}
+.layerSlideText{
+	position:absolute;
+	top:2px; 
+	left:55px;  
+	right:40px; 
+	height:30px; 
+	overflow:hidden;
+	text-align:left; 
+	line-height:30px; 
+	font-family:'Lucida Console', monospace;
+	font-size:20px; 
+	color:#999999;
+	text-shadow: 0px 0px 10px #f0f0f0;
+}
+.layerSlideSelect{
+	position:absolute;
+	z-index:26;
+	top:2px;
+	right:5px;  
+	width:30px; 
+	height:30px; 
+	font-size:20px;
+	font-family:'Lucida Console', monospace;
+}
+.layerSlideDelete{
+	position:absolute;
+	z-index:26;
+	top:2px;
+	right:5px;  
+	width:30px; 
+	height:30px; 
+	font-size:20px;
+	font-family:'Lucida Console', monospace;
+}
+.scope{
+	position:absolute; 
+	background-color:#dfdfdf;
+	box-shadow: inset 0 0 20px rgba(00, 00, 00, 1);
+}
+

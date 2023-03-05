@@ -1,0 +1,8 @@
+<svg width="25" height="25" xmlns="http://www.w3.org/2000/svg">
+  <rect stroke="#999999" fill="none" opacity="undefined" x="3.125" y="3.5" width="13" height="18.5" id="svg_4"/>
+  <rect fill="none" opacity="undefined" x="16.125" y="3.5" width="3" height="18.5" id="svg_6" stroke="#999999"/>
+  <rect fill="none" opacity="undefined" x="19.16667" y="3.5" width="3" height="18.5" id="svg_7" stroke="#999999"/>
+  <line stroke-linecap="null" stroke-linejoin="null" id="svg_3" y2="15.86664" x2="13.74999" y1="15.86664" x1="5.58338" opacity="undefined" fill-opacity="null" stroke-opacity="null" stroke-dasharray="null" stroke-width="null" stroke="#999999" fill="none"/>
+  <line stroke-linecap="null" stroke-linejoin="null" id="svg_5" y2="12.36667" x2="13.74999" y1="12.36667" x1="5.58338" opacity="undefined" fill-opacity="null" stroke-opacity="null" stroke-dasharray="null" stroke-width="null" stroke="#999999" fill="none"/>
+  <line stroke-linecap="null" stroke-linejoin="null" id="svg_8" y2="8.53336" x2="13.74999" y1="8.53336" x1="5.58338" opacity="undefined" fill-opacity="null" stroke-opacity="null" stroke-dasharray="null" stroke-width="null" stroke="#999999" fill="none"/>
+</svg>
